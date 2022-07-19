@@ -26,6 +26,8 @@ button{
     background-color: rgb(207, 228, 252);
     transition-property: all;
 transition-duration: 1s;
+border-radius: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button:hover{
     background-color: rgb(127, 183, 247);
@@ -60,7 +62,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
+    transition-duration: 2s;
 }
+
+.tops:hover{
+    background-color: pink;
+}
+
 #bottomsheader{
     text-align: center;
     font-family: monospace;  
