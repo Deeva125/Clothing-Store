@@ -4,6 +4,7 @@
     height: 50vh;
     align-items: center;
     margin-top: 25px;
+    flex-wrap: wrap;
 }
 .item{
     border-style: solid;
@@ -79,4 +80,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
+}
+
+@media screen and (max-width:500px){
+    #call{
+        width: 40%;
+    }
+    #directions{
+        width: 40%;
+    }
 }
